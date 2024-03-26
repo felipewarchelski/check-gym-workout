@@ -1,0 +1,2 @@
+Projeto para colocar que a comunidade coloque oque treinou naquele dia e algumas informações
+Projeto dedicado a aprendizado de PHP e Banco de Dados

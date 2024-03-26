@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section1 {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="submit"],
+select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.header-table button {
+    margin-top: 0;
+}
+
+.table th a {
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.table th a:hover {
+    background-color: #ddd;
+    /* Alterado para uma cor mais clara no hover */
+}
+
+.table th:hover {
+    background-color: #ddd;
+    /* Alterado para uma cor mais clara no hover */
+}
+
+.table {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table table th,
+.table table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.table table th {
+    background-color: #f2f2f2;
+    transition: background-color 0.3s;
+}
+
+.table table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table table tr:hover {
+    background-color: #f2f2f2;
+}
