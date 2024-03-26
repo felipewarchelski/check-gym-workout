@@ -11,7 +11,7 @@
 <body>
     <section class="section1">
         <div class="main">
-            <h1>Treinou Hoje Noia?</h1>
+            <h1>Treinou Hoje?</h1>
             <form action="#" method="post">
                 <input type="text" name="nome" id="" placeholder="Seu nome" required>
                 <input type="text" name="membro" id="" placeholder="Treinou oque?" required>
